@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ProductCard from "@/components/ProductCard";
 import { productsData } from "@/data/products";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function CategoryPage() {
   const [match, params] = useRoute("/products/:slug");
@@ -15,6 +16,19 @@ export default function CategoryPage() {
   const category = useMemo(() => {
     return productsData.find(c => c.slug === slug);
   }, [slug]);
+
+  useSEO({
+    title: category
+      ? `${category.name} — Ophthalmic Equipment Delhi`
+      : "Ophthalmic Equipment Category",
+    description: category
+      ? `Shop ${category.name} from Eye Caring Equipments. ${category.products.map(p => p.name).join(", ")}. Enquire via WhatsApp or call +91 8882591713.`
+      : "Browse ophthalmic equipment categories at Eye Caring Equipments, Delhi.",
+    canonical: `https://eyecaringequipments.com/products/${slug ?? ""}`,
+    keywords: category
+      ? `${category.name} Delhi, ${category.products.map(p => p.name).join(", ")}, ophthalmic equipment`
+      : undefined,
+  });
 
   if (!category) {
     return (

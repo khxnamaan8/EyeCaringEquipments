@@ -4,8 +4,16 @@ import { Phone, MessageCircle, MapPin, Mail, Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function ContactPage() {
+  useSEO({
+    title: "Contact Us — Buy Ophthalmic Equipment Delhi",
+    description: "Get in touch with Eye Caring Equipments. Visit us at 27 East Laxmi Market, Delhi-110092, call +91 8882591713 or WhatsApp for pricing and product enquiries.",
+    canonical: "https://eyecaringequipments.com/contact",
+    keywords: "contact Eye Caring Equipments, buy ophthalmic equipment Delhi, ophthalmology instruments price, eye equipment supplier contact",
+  });
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />

@@ -6,8 +6,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { productsData } from "@/data/products";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function ProductsPage() {
+  useSEO({
+    title: "Ophthalmic Equipment Products",
+    description: "Browse our full range of ophthalmic equipment: diagnostic instruments, surgical tools, refraction equipment & optical accessories. Premium brands at competitive prices in Delhi.",
+    canonical: "https://eyecaringequipments.com/products",
+    keywords: "ophthalmic products Delhi, slit lamp, fundus lens, operating microscope, auto refractometer, trial lens, keratometer, lensmeter, indirect ophthalmoscope",
+  });
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />

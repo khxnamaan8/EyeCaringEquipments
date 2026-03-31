@@ -7,9 +7,17 @@ import ProductCard from "@/components/ProductCard";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { useSEO } from "@/hooks/useSEO";
 import heroImage from "@assets/WhatsApp_Image_2026-03-31_at_16.45.28_1774958081362.jpeg"; // using slit lamp as hero image placeholder if needed
 
 export default function HomePage() {
+  useSEO({
+    title: "Ophthalmic Equipment Supplier in Delhi",
+    description: "Eye Caring Equipments — Delhi's trusted supplier of premium ophthalmic instruments. Slit lamps, auto refractometers, operating microscopes, trial lens sets & more. Call +91 8882591713.",
+    canonical: "https://eyecaringequipments.com/",
+    keywords: "ophthalmic equipment Delhi, slit lamp supplier, auto refractometer, surgical microscope, eye care instruments, trial lens set Delhi",
+  });
+
   const featuredProducts = productsData.flatMap(cat => cat.products).slice(0, 4);
 
   return (

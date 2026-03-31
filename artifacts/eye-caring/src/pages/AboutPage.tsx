@@ -5,8 +5,16 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Target, Eye, ShieldCheck, Users } from "lucide-react";
 import heroImg from "@assets/WhatsApp_Image_2026-03-31_at_16.45.26_(1)_1774958081362.jpeg";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function AboutPage() {
+  useSEO({
+    title: "About Us — Ophthalmic Equipment Dealer Delhi",
+    description: "Learn about Eye Caring Equipments — a Delhi-based trusted supplier of precision ophthalmic instruments for ophthalmologists, optometrists and hospitals across India.",
+    canonical: "https://eyecaringequipments.com/about",
+    keywords: "about Eye Caring Equipments, ophthalmic equipment dealer Delhi, ophthalmology supplier India",
+  });
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />
