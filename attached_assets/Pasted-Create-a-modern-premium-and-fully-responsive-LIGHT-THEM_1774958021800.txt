@@ -1,0 +1,138 @@
+Create a modern, premium, and fully responsive LIGHT-THEME website for an ophthalmic equipment business with high-end UI/UX and smooth 3D motion animations.
+
+---------------------------------------
+🏢 BUSINESS DETAILS:
+Firm Name: EYE CARING EQUIPMENTS
+Address: 27 East Laxmi Market, Street No.1, Near Shiv Mandir, Delhi-110092
+Mobile: +91 8882591713
+
+---------------------------------------
+🎯 GOAL:
+- Professional business website
+- Showcase ophthalmic products
+- Generate leads via Call & WhatsApp
+- Clean, modern, medical + tech style
+
+---------------------------------------
+🎨 DESIGN STYLE (STRICT LIGHT THEME):
+- Use LIGHT THEME only (no dark mode)
+- Background: White / Soft gradients (#ffffff, #f8fbff)
+- Primary Color: Medical Blue (#0ea5e9)
+- Accent Color: Light cyan / sky blue
+- Glassmorphism (light blur cards with transparency)
+- Clean, minimal, high-end UI
+
+---------------------------------------
+🧠 CORE FEATURES:
+
+1. 🌐 MULTI-PAGE WEBSITE (Separate URLs):
+- Home (/)
+- About (/about)
+- Products (/products)
+- Product Categories (/products/category-name)
+- Contact (/contact)
+
+---------------------------------------
+2. 🧭 NAVBAR (IMPORTANT - MODERN FLOATING STYLE):
+- Navbar should be floating in the center (not full-width)
+- Rounded pill-shaped navbar with glassmorphism effect
+- Slight blur background + soft shadow
+- Positioned slightly below top (floating feel)
+- Smooth hover animations
+- Sticky on scroll
+
+---------------------------------------
+3. 🖼️ LOGO INTEGRATION:
+- I will upload my logo manually
+- Place logo on left side of navbar
+- Ensure it is properly aligned and responsive
+- Add subtle hover animation on logo
+- Maintain professional spacing and branding consistency
+
+---------------------------------------
+4. 🎥 3D & MOTION ANIMATIONS:
+- Light-themed animated background (soft particles, gradients, floating shapes)
+- Subtle 3D floating elements (medical icons / abstract shapes)
+- Parallax scrolling
+- Smooth page transitions
+- Hover animations on cards
+
+---------------------------------------
+5. 🏠 HERO SECTION:
+- Bright and premium hero section
+- Headline: "Advanced Ophthalmic Equipment Solutions"
+- Subheadline: "Precision. Innovation. Care."
+- CTA Buttons:
+   - Call Now
+   - WhatsApp Now
+- Animated floating background elements
+
+---------------------------------------
+6. 📦 PRODUCTS SECTION:
+
+- Categories:
+   - Diagnostic Equipment
+   - Surgical Instruments
+   - Optical Devices
+   - Refraction Equipment
+
+- For EACH product:
+   - Try to fetch images automatically using product name
+   - Display exactly 4 images per product
+   - If auto-fetch fails, allow manual image upload
+   - Show:
+        Product Name
+        Short Description
+        Image Gallery (4 images)
+        "Enquire on WhatsApp" button
+
+- Use clean grid layout
+- Light themed cards with shadow + hover lift effect
+- Each product opens in detailed page
+
+---------------------------------------
+7. 📱 LEAD GENERATION:
+
+- WhatsApp Floating Button (bottom right)
+   Link: https://wa.me/918882591713
+
+- Call Button (mobile sticky)
+   Link: tel:+918882591713
+
+- Add "Enquire Now" buttons throughout
+
+---------------------------------------
+8. 📍 CONTACT PAGE:
+- Address
+- Phone number
+- Embedded Google Map
+- Call & WhatsApp buttons
+
+---------------------------------------
+9. ⚡ PERFORMANCE:
+- Fast loading
+- Lazy loading images
+- Optimized assets
+
+---------------------------------------
+10. 🧩 EXTRA FEATURES:
+- SEO-friendly structure
+- Smooth scrolling
+- Clean navigation
+- Reusable components
+
+---------------------------------------
+11. 🛠️ TECH STACK:
+- React OR HTML/CSS/JS
+- Tailwind CSS preferred
+- Framer Motion or CSS animations
+
+---------------------------------------
+12. 📂 ADMIN FLEXIBILITY:
+- Easy to replace logo
+- Easy to update product images
+- Easy to add/remove products
+
+---------------------------------------
+🎯 FINAL RESULT:
+A premium, LIGHT-THEME, modern ophthalmic equipment website with floating navbar, smooth animations, professional logo integration, and strong lead generation via WhatsApp & Call.
