@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { Phone, MessageCircle, MapPin } from "lucide-react";
+import { Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import logoImg from "@assets/EyeCaringEquipments_1774958046472.png";
 
 export default function Navbar() {
@@ -13,10 +14,10 @@ export default function Navbar() {
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="w-full max-w-[900px] bg-white/85 backdrop-blur-md border border-white/40 shadow-sm rounded-full px-6 py-3 flex items-center justify-between"
+        className="w-full max-w-[900px] bg-white/85 backdrop-blur-md border border-white/40 shadow-sm rounded-full px-6 py-2 flex items-center justify-between"
       >
         <Link href="/" className="flex items-center gap-3">
-          <img src={logoImg} alt="Eye Caring Equipments" className="h-10 w-auto object-contain" />
+          <img src={logoImg} alt="Eye Caring Equipments" className="h-14 w-auto object-contain drop-shadow-sm" />
           <span className="font-semibold text-lg text-foreground tracking-tight hidden sm:block">
             Eye Caring Equipments
           </span>
@@ -35,7 +36,7 @@ export default function Navbar() {
             <Phone className="w-4 h-4" />
           </a>
           <a href="https://wa.me/918882591713" target="_blank" rel="noreferrer" className="flex items-center justify-center bg-[#25D366]/10 text-[#25D366] p-2 rounded-full hover:bg-[#25D366]/20 transition-colors">
-            <MessageCircle className="w-4 h-4" />
+            <FaWhatsapp className="w-4 h-4" size={16} />
           </a>
         </div>
 
