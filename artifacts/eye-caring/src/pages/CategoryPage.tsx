@@ -58,7 +58,11 @@ export default function CategoryPage() {
           </motion.div>
 
           {/* Product Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 gap-6 ${
+            category.products.length >= 4
+              ? "lg:grid-cols-3"
+              : "lg:grid-cols-2 max-w-3xl"
+          }`}>
             {category.products.map((product, index) => (
               <ProductCard key={product.id} product={product} index={index} />
             ))}
