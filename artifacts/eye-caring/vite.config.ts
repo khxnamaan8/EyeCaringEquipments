@@ -49,9 +49,10 @@ export default defineConfig(async () => {
     },
     root: path.resolve(import.meta.dirname),
     build: {
-  outDir: "dist",
-  emptyOutDir: true,
-}
+      outDir: "dist",
+      emptyOutDir: true,
+    }, // ✅ FIXED (comma added here)
+
     server: {
       port,
       host: "0.0.0.0",
